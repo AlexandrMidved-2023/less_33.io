@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  background: linear-gradient(#e9f0ef, #3c4c4f);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  padding: 0 calc(50vw - 520px);
+}
+.header__title {
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: normal;
+  border-bottom: 1px solid #2f4a4f;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.main__time, .main__chengeTime, .main__carInfo, .main__carAdd_Check, .main__count {
+  display: flex;
+  justify-content: center;
+}
+.main__time .btn__time, .main__time .btn__carInfo, .main__time .btn__timeChenge, .main__time .btn__CarDriver, .main__time .btn__count, .main__chengeTime .btn__time, .main__chengeTime .btn__carInfo, .main__chengeTime .btn__timeChenge, .main__chengeTime .btn__CarDriver, .main__chengeTime .btn__count, .main__carInfo .btn__time, .main__carInfo .btn__carInfo, .main__carInfo .btn__timeChenge, .main__carInfo .btn__CarDriver, .main__carInfo .btn__count, .main__carAdd_Check .btn__time, .main__carAdd_Check .btn__carInfo, .main__carAdd_Check .btn__timeChenge, .main__carAdd_Check .btn__CarDriver, .main__carAdd_Check .btn__count, .main__count .btn__time, .main__count .btn__carInfo, .main__count .btn__timeChenge, .main__count .btn__CarDriver, .main__count .btn__count {
+  cursor: pointer;
+  margin: 40px;
+  width: 250px;
+  padding: 10px;
+  height: 50px;
+  border-radius: 24px;
+  background: #000000;
+  font-size: 18px;
+  color: #ffffff;
+}
+.main__time .btn__timeChenge, .main__time .btn__CarDriver, .main__chengeTime .btn__timeChenge, .main__chengeTime .btn__CarDriver, .main__carInfo .btn__timeChenge, .main__carInfo .btn__CarDriver, .main__carAdd_Check .btn__timeChenge, .main__carAdd_Check .btn__CarDriver, .main__count .btn__timeChenge, .main__count .btn__CarDriver {
+  background: #014cf9;
+}
